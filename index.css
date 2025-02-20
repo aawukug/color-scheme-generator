@@ -11,18 +11,16 @@ body{
 
 .container {
     width: 100%;
-    height: 670px;
     margin: 0 auto;
 }
 
 .color-container{
     display: flex;
-    max-height: 100vh;
 }
 
 .colour-img {
     width: 100%;
-    height: 671px;
+    height: 590px;
 }
 
 
@@ -84,3 +82,8 @@ select:focus {
     outline: none;
 }
 
+@media(min-width: 769px){
+    .colour-img {
+        height: 671px;
+    }
+}
